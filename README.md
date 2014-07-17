@@ -19,14 +19,23 @@ Under **Data feeds** Then select **change mode**.
 
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-select-change-mode.png">
 
- Select **Manual** instead of **Automatic**.
+Select **Manual** instead of **Automatic**.
 
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-changemode.png">
 
 
- Select **declare**, select the file resource.csv.
+Select **declare**.
 
-Validate by clicking on **Upload and process**.   
+<img src="http://assets.recolytic.com/www/tutorial/tutorial_select_declare_resource.png">
+
+
+Select the file **resource.csv**. You have a preview of the resources in the csv file. Validate by clicking on **Upload and process**.   
+
+<img src="http://assets.recolytic.com/www/tutorial/tutorial-preview-before-upload.png">
+
+If you want to list the created resources, click on **Resources Dashboard**.
+
+<img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-created.png">
 
 
 ### 3- COLLECT: SIMULATE USERS ACTIONS
