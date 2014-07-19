@@ -38,7 +38,7 @@ If you want to list the created resources, click on **Resources Dashboard**.
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-created.png">
 
 
-### 3- SIMULATION: SIMULATE USERS ACTIONS, ISSUE RECOMMENDATIONS AND SIMULATE UPTAKES
+### 3- SIMULATION: COLLECT / RECOMMEND / UPTAKE
 
 For this simulation we assume that we are an ecommerce web site, we have a **langing page**, **product page**, "shopping cart" page* and *checkout page**.
 
@@ -56,7 +56,20 @@ Now launch a command line, go to the **recolytic-tutorial** folder, launch the b
 
 ### 4- ANALYSE: RECOLYTIC CONSOLE
 
-No log to recolytic administration console, select the subscription "Tutorial", and select
+Now sign in to recolytic administration console, select the subscription "Tutorial", Under **Insights**:
+
++ To determine the performance of an integrated recommendation strategy for a given page, select **Strategies performance**. 
+
+<img src="http://assets.recolytic.com/www/tutorial/tutorial-strategy-perfomance-analysis.png">
+
++ To determine what are the resources (products) that are doing well in the recommendation process select ****.
+
+<img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-performance.png">
+
++ You may adjust the **piority** of a resource to give it more chance to appear in the recommendation you can do it in **Resources Dashboard**.
+
+<img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-dash.png">
 
 
-### 7- MORE OPTIONS
+
+

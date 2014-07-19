@@ -3,8 +3,8 @@ CURL="/usr/bin/curl"
 GAWK="/usr/bin/gawk"
 
 #TODO: update with your subscption id
-API_KEY="df1eb2cf-c3f6-27c8-20d1-4d98340f8d40"
-HOST="localhost.com:5001"
+API_KEY="236c5571-4b29-3475-6e77-517d5853c46d"
+HOST="api.recolytic.com"
 
 
 
