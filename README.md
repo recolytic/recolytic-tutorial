@@ -46,9 +46,12 @@ For this simulation we assume that we are an ecommerce web site, we have a **lan
 Now launch a command line, go to the **recolytic-tutorial** folder, launch the batch **simulate.sh**. This batch will execute 3 main tasks:
 
 
--Simulate uers actions: This script will simulate 7 users actions (more details can be found reading the comments in **simlate.sh** file)
--Issue recommendations: 5 recommendations strategies are called by the script: In the **landing page** we deployed the **most popular** and the **recently visied** recommendation strategy. In the product page we are calling the **item to item** strategy. For the **shopping cart** we are using **co-occurence**  and *user to user * recommendations strategies.
--Simlate uptakes: We are simulating that the user click on a item that was recommended to it.
++ Simulate uers actions: This script will simulate 7 users actions (more details can be found reading the comments in **simlate.sh** file)
++ Issue recommendations: 5 recommendations strategies are called by the script:
+	+ **landing page** we deployed the **most popular** and the **recently visied** recommendation strategy.
+	+ **product page** we are calling the **item to item** strategy. 
+	+ For the **shopping cart** we are using **co-occurence**  and **user to user** recommendations strategies.
++ Simlate uptakes: We are simulating that the user click on a item that was recommended to it.
 
 
 ### 4- ANALYSE: RECOLYTIC CONSOLE
