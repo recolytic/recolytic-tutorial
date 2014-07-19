@@ -62,7 +62,7 @@ Now sign in to recolytic administration console, select the subscription "Tutori
 
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-strategy-perfomance-analysis.png">
 
-+ To determine what are the resources (products) that are doing well in the recommendation process select ****.
++ To determine what are the resources (products) that are doing well in the recommendation process.
 
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-performance.png">
 
