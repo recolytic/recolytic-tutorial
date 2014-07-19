@@ -38,20 +38,22 @@ If you want to list the created resources, click on **Resources Dashboard**.
 <img src="http://assets.recolytic.com/www/tutorial/tutorial-resource-created.png">
 
 
-### 3- COLLECT: SIMULATE USERS ACTIONS
+### 3- SIMULATION: SIMULATE USERS ACTIONS, ISSUE RECOMMENDATIONS AND SIMULATE UPTAKES
+
+For this simulation we assume that we are an ecommerce web site, we have a **langing page**, **product page**, "shopping cart" page* and *checkout page**.
 
 
+Now launch a command line, go to the **recolytic-tutorial** folder, launch the batch **simulate.sh**. This batch will execute 3 main tasks:
 
-### 4- REOMMEND: ISSUE RECOMMENDATIONS
+
+-Simulate uers actions: This script will simulate 7 users actions (more details can be found reading the comments in **simlate.sh** file)
+-Issue recommendations: 5 recommendations strategies are called by the script: In the **landing page** we deployed the **most popular** and the **recently visied** recommendation strategy. In the product page we are calling the **item to item** strategy. For the **shopping cart** we are using **co-occurence**  and *user to user * recommendations strategies.
+-Simlate uptakes: We are simulating that the user click on a item that was recommended to it.
 
 
-#### 4.1- NON PERSONAL RECOMMENDATION: 
+### 4- ANALYSE: RECOLYTIC CONSOLE
 
-#### 4.2- PERSONAL RECOMMENDATION: 
+No log to recolytic administration console, select the subscription "Tutorial", and select
 
-### 5- MESURE: SIMULATE UPTAKES
 
-### 6- REPORTING: 
-#### 6.1- STRATEGY PERFORMANCE
-#### 6.2- RESOURCE PERFORMANCE
 ### 7- MORE OPTIONS
